@@ -1,0 +1,2082 @@
+{
+   "taxonomies":[
+      {
+         "pubtitle":"Body Centred Interaction in Immersive Virtual Environments",
+         "cite":"slater1994body",
+         "pubdate":1994,
+         "authors":[
+            {
+               "firstname":"Mel",
+               "lastname":"Slater"
+            },
+            {
+               "firstname":"Martin",
+               "lastname":"Usoh"
+            }
+         ],
+         "taxonomy":{
+            "node":"Interaction",
+            "child":[
+               {
+                  "node":"Mundane"
+               },
+               {
+                  "node":"Magical"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Virtual Environment Interaction Techniques",
+		 "cite":"mine1995virtual",
+         "pubdate":1995,
+         "authors":[
+            {
+               "firstname":"Mark",
+               "secondname":"R",
+               "lastname":"Mine"
+            }
+         ],
+         "taxonomy":{
+            "node":"User's Movement",
+            "child":[
+               {
+                  "node":"Direction of Motion",
+                  "child":[
+                     {
+                        "node":"Hand directed"
+                     },
+                     {
+                        "node":"Gaze directed"
+                     },
+                     {
+                        "node":"Physical controls"
+                     },
+                     {
+                        "node":"Virtual controls"
+                     },
+                     {
+                        "node":"Object driven"
+                     },
+                     {
+                        "node":"Goal driven"
+                     }
+                  ]
+               },
+               {
+                  "node":"Specification of Speed of Motion",
+                  "child":[
+                     {
+                        "node":"Constant speed"
+                     },
+                     {
+                        "node":"Constant acceleration"
+                     },
+                     {
+                        "node":"Hand controlled"
+                     },
+                     {
+                        "node":"Physical controls"
+                     },
+                     {
+                        "node":"Virtual controls"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Evaluation of Movement Control Techniques for Immersive Virtual Environments",
+         "cite":"bowman1996evaluation",
+         "pubdate":1996,
+         "authors":[
+            {
+               "firstname":"Douglas",
+               "secondname":"A",
+               "lastname":"Bowman"
+            },
+            {
+               "firstname":"David",
+               "lastname":"Koller"
+            },
+            {
+               "firstname":"Larry",
+               "secondname":"F",
+               "lastname":"Hodges"
+            }
+         ],
+         "taxonomy":{
+            "child":[
+               {
+                  "node":"Direction/Target Selection",
+                  "child":[
+                     {
+                        "node":"Gaze-directed steering"
+                     },
+                     {
+                        "node":"Pointing/Gesture steering (including physical props)"
+                     },
+                     {
+                        "node":"Discrete Selection",
+                        "child":[
+                           {
+                              "node":"From Lists (e.g. menus)"
+                           },
+                           {
+                              "node":"Environmental/Direct Targets (objects in the virtual world)"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"2-D Pointing"
+                     }
+                  ]
+               },
+               {
+                  "node":"Velocity/Acceleration Selection",
+                  "child":[
+                     {
+                        "node":"Constant Velocity and/or Acceleration"
+                     },
+                     {
+                        "node":"Gesture-based (including physical props)"
+                     },
+                     {
+                        "node":"Explicit Selection",
+                        "child":[
+                           {
+                              "node":"Discrete (choose 1 of N)"
+                           },
+                           {
+                              "node":"Continuous (choose from range)"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"User/Environment Scaling"
+                     },
+                     {
+                        "node":"Automatic/Adaptive",
+                        "child":[
+                           {
+                              "node":"Time-based"
+                           },
+                           {
+                              "node":"Position-based"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"Input Conditions",
+                  "child":[
+                     {
+                        "node":"Constant Travel/No Input"
+                     },
+                     {
+                        "node":"Continuous Input State"
+                     },
+                     {
+                        "node":"Start/Stop Input"
+                     },
+                     {
+                        "node":"Start Input/Stop Automatically"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"A Survey of 3D Interaction Techniques",
+         "cite":"hand1997survey",
+         "pubdate":1997,
+         "authors":[
+            {
+               "firstname":"Chris",
+               "lastname":"Hand"
+            }
+         ],
+         "taxonomy":{
+            "node":"Frame of reference",
+            "child":[
+               {
+                  "node":"Egocentric"
+               },
+               {
+                  "node":"Exocentric"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Maintaining Spatial Orientation during Travel in an Immersive Virtual Environment",
+         "cite":"bowman1999maintaining",
+         "pubdate":1999,
+         "authors":[
+            {
+               "firstname":"Douglas",
+               "secondname":"A",
+               "lastname":"Bowman"
+            },
+            {
+               "firstname":"Elizabeth",
+               "secondname":"T",
+               "lastname":"Davis"
+            },
+            {
+               "firstname":"Larry",
+               "secondname":"F",
+               "lastname":"Hodges"
+            },
+            {
+               "firstname":"Albert",
+               "secondname":"N",
+               "lastname":"Badre"
+            }
+         ],
+         "taxonomy":{
+            "node":"Travel",
+            "child":[
+               {
+                  "node":"Start To Move"
+               },
+               {
+                  "node":"Indicate Position",
+                  "child":[
+                     {
+                        "node":"Specify Position",
+                        "child":[
+                           {
+                              "node":"discrete target specification (select object in environment, select from list, position 3D cursor, automatic selection,...)"
+                           },
+                           {
+                              "node":"one-time route specification (set series of markers, specify curvature and distance,...)"
+                           },
+                           {
+                              "node":"continuous specification (gaze-directed, pointing, physical steering props, virtual controls, 2D pointing,...)"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Specify Velocity"
+                     },
+                     {
+                        "node":"Specify Acceleration"
+                     }
+                  ]
+               },
+               {
+                  "node":"Indicate Orientation"
+               },
+               {
+                  "node":"Stop Moving"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Virtual Locomotion: Walking in Place through Virtual Environments",
+         "cite":"templeman1999virtual",
+         "pubdate":1999,
+         "authors":[
+            {
+               "firstname":"James",
+               "secondname":"N",
+               "lastname":"Templeman"
+            },
+            {
+               "firstname":"Patricia",
+               "secondname":"S",
+               "lastname":"Denbrook"
+            },
+            {
+               "firstname":"Linder",
+               "secondname":"E",
+               "lastname":"Sibert"
+            }
+         ],
+         "taxonomy":{
+            "node":"Locomotion",
+            "child":[
+               {
+                  "node":"User's action (computer input)",
+                  "child":[
+                     {
+                        "node":"direction of motion (steering)"
+                     },
+                     {
+                        "node":"rate of motion (speed control)"
+                     }
+                  ]
+               },
+               {
+                  "node":"Sensory feedback (computer output)"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Exploring 3D Navigation: Combining Speed-Coupled Flying with Orbiting",
+         "cite":"tan2001exploring",
+         "pubdate":2001,
+         "authors":[
+            {
+               "firstname":"Desney",
+               "secondname":"S",
+               "lastname":"Tan"
+            },
+            {
+               "firstname":"George",
+               "secondname":"G",
+               "lastname":"Robertson"
+            },
+            {
+               "firstname":"Mary",
+               "lastname":"Czerwinski"
+            }
+         ],
+         "taxonomy":{
+            "child":[
+               {
+                  "node":"Task Selection",
+                  "child":[
+                     {
+                        "node":"Subtasks",
+                        "child":[
+                           {
+                              "node":"Explore"
+                           },
+                           {
+                              "node":"Search"
+                           },
+                           {
+                              "node":"Inspect"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"Travel Control",
+                  "child":[
+                     {
+                        "node":"Path (position)",
+                        "child":[
+                           {
+                              "node":"Function of environment state"
+                           },
+                           {
+                              "node":"Function of self-state"
+                           },
+                           {
+                              "node":"Function of combination state"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Speed",
+                        "child":[
+                           {
+                              "node":"Function of environment state"
+                           },
+                           {
+                              "node":"Function of self-state"
+                           },
+                           {
+                              "node":"Function of combination state"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"View (orientation)",
+                        "child":[
+                           {
+                              "node":"Function of environment state"
+                           },
+                           {
+                              "node":"Function of self-state"
+                           },
+                           {
+                              "node":"Function of combination state"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"User Interface",
+                  "child":[
+                     {
+                        "node":"Input Mechanism",
+                        "child":[
+                           {
+                              "node":"Sensory",
+                              "child":[
+                                 {
+                                    "node":"Computer vision"
+                                 },
+                                 {
+                                    "node":"Audio input"
+                                 },
+                                 {
+                                    "node":"Other"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Manipulanda",
+                              "child":[
+                                 {
+                                    "node":"One-handed use"
+                                 },
+                                 {
+                                    "node":"Two-handed use"
+                                 },
+                                 {
+                                    "node":"Other"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Control Frequency",
+                        "child":[
+                           {
+                              "node":"Discrete"
+                           },
+                           {
+                              "node":"Continuous"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Control Mapping",
+                        "child":[
+                           {
+                              "node":"Constant (1:1)"
+                           },
+                           {
+                              "node":"Variable (modal)",
+                              "child":[
+                                 {
+                                    "node":"Implicit (system)"
+                                 },
+                                 {
+                                    "node":"Explicit (user)"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Type of Display",
+                        "child":[
+                           {
+                              "node":"Immersive"
+                           },
+                           {
+                              "node":"Semi-immersive"
+                           },
+                           {
+                              "node":"Non-immersive"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Simultaneous Views and Existence",
+                        "child":[
+                           {
+                              "node":"Single"
+                           },
+                           {
+                              "node":"Multiple"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"A new taxonomy for locomotion in virtual environments",
+         "cite":"arns2002new",
+         "pubdate":2002,
+         "authors":[
+            {
+               "firstname":"Laura",
+               "secondname":"Lynn",
+               "lastname":"Arns"
+            }
+         ],
+         "taxonomy":{
+            "node":"Locomotion",
+            "child":[
+               {
+                  "node":"Rotation",
+                  "child":[
+                     {
+                        "node":"Physical",
+                        "child":[
+                           {
+                              "child":[
+                                 {
+                                    "node":"Scaled"
+                                 },
+                                 {
+                                    "node":"1-to-1 Scale"
+                                 }
+                              ]
+                           },
+                           {
+                              "child":[
+                                 {
+                                    "node":"Head (gaze-directed)"
+                                 },
+                                 {
+                                    "node":"Body"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Virtual",
+                        "child":[
+                           {
+                              "node":"DOF",
+                              "child":[
+                                 {
+                                    "node":"3"
+                                 },
+                                 {
+                                    "node":"2"
+                                 },
+                                 {
+                                    "node":"1"
+                                 },
+                                 {
+                                    "node":"Combinations"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Velocity/Acceleration Selection",
+                              "child":[
+                                 {
+                                    "node":"Constant Velocity and/or Acceleration"
+                                 },
+                                 {
+                                    "node":"Gesture-based (including physical props)"
+                                 },
+                                 {
+                                    "node":"Explicit Selection",
+                                    "child":[
+                                       {
+                                          "node":"Discrete (choose 1 of N)"
+                                       },
+                                       {
+                                          "node":"Continuous (choose from range)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "node":"User/Environment Scaling"
+                                 },
+                                 {
+                                    "node":"Automatic/Adaptive",
+                                    "child":[
+                                       {
+                                          "node":"Time-based"
+                                       },
+                                       {
+                                          "node":"Position-based"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Input Conditions",
+                              "child":[
+                                 {
+                                    "node":"Constant Travel/No Input"
+                                 },
+                                 {
+                                    "node":"Continuous Input State"
+                                 },
+                                 {
+                                    "node":"Start/Stop Input"
+                                 },
+                                 {
+                                    "node":"Start Input/Stop Automatically"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "node":"None"
+                     }
+                  ]
+               },
+               {
+                  "node":"Translation",
+                  "child":[
+                     {
+                        "node":"Physical",
+                        "child":[
+                           {
+                              "node":"Regular Walking"
+                           },
+                           {
+                              "node":"Scaled Walking"
+                           },
+                           {
+                              "node":"Walking in Place"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Virtual",
+                        "child":[
+                           {
+                              "node":"DOF",
+                              "child":[
+                                 {
+                                    "node":"3"
+                                 },
+                                 {
+                                    "node":"2"
+                                 },
+                                 {
+                                    "node":"1"
+                                 },
+                                 {
+                                    "node":"Combinations"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Velocity/Acceleration Selection",
+                              "child":[
+                                 {
+                                    "node":"Constant Velocity and/or Acceleration"
+                                 },
+                                 {
+                                    "node":"Gesture-based (including physical props)"
+                                 },
+                                 {
+                                    "node":"Explicit Selection",
+                                    "child":[
+                                       {
+                                          "node":"Discrete (choose 1 of N)"
+                                       },
+                                       {
+                                          "node":"Continuous (choose from range)"
+                                       }
+                                    ]
+                                 },
+                                 {
+                                    "node":"User/Environment Scaling"
+                                 },
+                                 {
+                                    "node":"Automatic/Adaptive",
+                                    "child":[
+                                       {
+                                          "node":"Time-based"
+                                       },
+                                       {
+                                          "node":"Position-based"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Input Conditions",
+                              "child":[
+                                 {
+                                    "node":"Constant Travel/No Input"
+                                 },
+                                 {
+                                    "node":"Continuous Input State"
+                                 },
+                                 {
+                                    "node":"Start/Stop Input"
+                                 },
+                                 {
+                                    "node":"Start Input/Stop Automatically"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"Interaction Device",
+                  "child":[
+                     {
+                        "node":"Glove"
+                     },
+					 {
+                        "node":"Wand"
+                     },
+					 {
+                        "node":"Treadmill"
+                     },
+					 {
+                        "node":"Mock-up/Buck"
+                     },
+					 {
+                        "node":"Bicycle"
+                     },
+					 {
+                        "node":"Sliding Sandals"
+                     },
+					 {
+                        "node":"Haptic Devices"
+                     }
+                  ]
+               },
+               {
+                  "node":"Display Device",
+                  "child":[
+                     {
+                        "node":"Monitor"
+                     },
+                     {
+                        "node":"BOOM"
+                     },
+                     {
+                        "node":"HMD"
+                     },
+                     {
+                        "node":"Desk/Bench"
+                     },
+                     {
+                        "node":"Theater/Auditorium"
+                     },
+                     {
+                        "node":"Projection",
+                        "child":[
+                           {
+                              "child":[
+                                 {
+                                    "node":"Arrangement/FOV of multiple walls"
+                                 }
+                              ]
+                           },
+                           {
+                              "child":[
+                                 {
+                                    "node":"Single Wall"
+                                 },
+                                 {
+                                    "node":"2 Walls"
+                                 },
+                                 {
+                                    "node":"3 Walls"
+                                 },
+                                 {
+                                    "node":"4 Walls"
+                                 },
+                                 {
+                                    "node":"5 Walls"
+                                 },
+                                 {
+                                    "node":"6 Walls"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Handbook of Virtual Environments: Design, Implementation, and Applications",
+         "cite":"hollerbach2002locomotion",
+         "pubdate":2002,
+         "authors":[
+            {
+               "firstname":"John",
+               "secondname":"M",
+               "lastname":"Hollerbach"
+            }
+         ],
+         "taxonomy":{
+            "node":"Locomotion Interfaces",
+            "child":[
+               {
+                  "node":"Pedaling Devices"
+               },
+               {
+                  "node":"Walking in Place"
+               },
+               {
+                  "node":"Foot Platforms"
+               },
+               {
+                  "node":"Treadmills"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Application and Taxonomy of Through-the-Lens Techniques",
+         "cite":"stoev2002application",
+         "pubdate":2002,
+         "authors":[
+            {
+               "firstname":"Stanislav",
+               "secondname":"L",
+               "lastname":"Stoev"
+            },
+            {
+               "firstname":"Dieter",
+               "lastname":"Schmalstieg"
+            }
+         ],
+         "taxonomy":{
+            "node":"Though-The-Lens Techniques",
+            "child":[
+               {
+                  "node":"Window in the primary world",
+                  "child":[
+                     {
+                        "node":"fixed in the primary world"
+                     },
+                     {
+                        "node":"fixed in the image plane of the user"
+                     },
+                     {
+                        "node":"mapped onto a pad, held by the user"
+                     }
+                  ]
+               },
+               {
+                  "node":"Window in the secondary world",
+                  "child":[
+                     {
+                        "node":"fixed in the primary world's space"
+                     },
+                     {
+                        "node":"fixed with respect to the viewing window"
+                     },
+                     {
+                        "node":"fixed with respect to the primary viewpoint"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"3D User interfaces: Theory and Practice",
+         "cite":"bowman20043d",
+         "pubdate":2004,
+         "authors":[
+            {
+               "firstname":"Douglas",
+               "secondname":"A",
+               "lastname":"Bowman"
+            },
+            {
+               "firstname":"Ernst",
+               "lastname":"Kruijff"
+            },
+            {
+               "firstname":"Joseph",
+               "secondname":"J",
+               "lastname":"LaViola Jr."
+            },
+            {
+               "firstname":"Ivan",
+               "lastname":"Poupyrev"
+            }
+         ],
+         "taxonomy":{
+            "node":"Travel Technique",
+            "child":[
+               {
+                  "node":"physical locomotion"
+               },
+               {
+                  "node":"steering"
+               },
+               {
+                  "node":"route-planning"
+               },
+               {
+                  "node":"target-based"
+               },
+               {
+                  "node":"manual manipulation"
+               },
+               {
+                  "node":"scaling"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Comparison of path visualizations and cognitive measures relative to travel technique in a virtual environment",
+         "cite":"zanbaka2005comparison",
+         "pubdate":2005,
+         "authors":[
+            {
+               "firstname":"Catherine",
+               "secondname":"A",
+               "lastname":"Zanbaka"
+            },
+            {
+               "firstname":"Benjamin",
+               "secondname":"C",
+               "lastname":"Lok"
+            },
+            {
+               "firstname":"Sabarish",
+               "secondname":"V",
+               "lastname":"Babu"
+            },
+            {
+               "firstname":"Amy",
+               "secondname":"C",
+               "lastname":"Ulinski"
+            },
+            {
+               "firstname":"Larry",
+               "secondname":"F",
+               "lastname":"Hodges"
+            }
+         ],
+         "taxonomy":{
+            "node":"Locomotion",
+            "child":[
+               {
+                  "node":"Replication of Walking (e.g. treadmills, walking in place)"
+               },
+               {
+                  "node":"Purely Virtual (e.g. joystick to fly)"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Taxonomy and Implementation of Redirection Techniques for Ubiquitous Passive Haptic Feedback",
+         "cite":"steinicke2008taxonomy",
+         "pubdate":2008,
+         "authors":[
+            {
+               "firstname":"Frank",
+               "lastname":"Steinicke"
+            },
+            {
+               "firstname":"Gerd",
+               "lastname":"Bruder"
+            },
+            {
+               "firstname":"Luv",
+               "lastname":"Kohli"
+            },
+            {
+               "firstname":"Jason",
+               "lastname":"Jerald"
+            },
+            {
+               "firstname":"Klaus",
+               "lastname":"Hinrichs"
+            }
+         ],
+         "taxonomy":{
+            "node":"Redirection Techniques",
+            "child":[
+               {
+                  "node":"Translation Gains",
+                  "child":[
+                     {
+                        "node":"Strafe Gain"
+                     },
+                     {
+                        "node":"Up Gain"
+                     },
+                     {
+                        "node":"Direction of Walk Gain"
+                     }
+                  ]
+               },
+               {
+                  "node":"Rotation Gains",
+                  "child":[
+                     {
+                        "node":"Yaw Gain"
+                     },
+                     {
+                        "node":"Pitch Gain"
+                     },
+                     {
+                        "node":"Roll Gain"
+                     }
+                  ]
+               },
+               {
+                  "node":"Curvature Gains"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Effects of travel technique and gender on a divided attention task in a virtual environment",
+         "cite":"suma2010effects",
+         "pubdate":2010,
+         "authors":[
+            {
+               "firstname":"Evan",
+               "secondname":"A",
+               "lastname":"Suma"
+            },
+            {
+               "firstname":"Samantha",
+               "secondname":"L",
+               "lastname":"Finkelstein"
+            },
+            {
+               "firstname":"Seth",
+               "lastname":"Clark"
+            },
+            {
+               "firstname":"Paula",
+               "lastname":"Goolkasian"
+            },
+            {
+               "firstname":"Larry",
+               "secondname":"F",
+               "lastname":"Hodges"
+            }
+         ],
+         "taxonomy":{
+            "node":"Travel Technique",
+            "child":[
+               {
+                  "node":"Real Walking"
+               },
+               {
+                  "node":"Walking-In-Place"
+               },
+               {
+                  "node":"Redirected Walking"
+               },
+               {
+                  "node":"Virtual Travel",
+                  "child":[
+                     {
+                        "node":"Steering",
+                        "child":[
+                           {
+                              "node":"Gaze-directed"
+                           },
+                           {
+                              "node":"Pointing-directed"
+                           },
+                           {
+                              "node":"Torso-directed"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Real-walking models improve walking-in-place systems",
+         "cite":"wendt2010real",
+         "pubdate":2010,
+         "authors":[
+            {
+               "firstname":"Jeremy",
+               "secondname":"D",
+               "lastname":"Wendt"
+            }
+         ],
+         "taxonomy":{
+            "node":"Walking Interface",
+            "child":[
+               {
+                  "node":"Mobile User",
+                  "child":[
+                     {
+                        "node":"Real Walking"
+                     },
+                     {
+                        "node":"Recentering",
+                        "child":[
+                           {
+                              "node":"Redirecting"
+                           },
+                           {
+                              "node":"Treadmill"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"Stationary User",
+                  "child":[
+                     {
+                        "node":"Leg-based",
+                        "child":[
+                           {
+                              "node":"Walking-In-Place"
+                           },
+                           {
+                              "node":"Virtual Segway"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Arm-based",
+                        "child":[
+                           {
+                              "node":"Joystick"
+                           },
+                           {
+                              "node":"Position-Specifying"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"A taxonomy for deploying redirection techniques in immersive virtual environments",
+         "cite":"suma2012taxonomy",
+         "pubdate":2012,
+         "authors":[
+            {
+               "firstname":"Evan",
+               "secondname":"A",
+               "lastname":"Suma"
+            },
+            {
+               "firstname":"Gerd",
+               "lastname":"Bruder"
+            },
+            {
+               "firstname":"Frank",
+               "lastname":"Steinicke"
+            },
+            {
+               "firstname":"David",
+               "secondname":"M",
+               "lastname":"Krum"
+            },
+            {
+               "firstname":"Mark",
+               "lastname":"Bolas"
+            }
+         ],
+         "taxonomy":{
+            "node":"Redirection Techniques",
+            "child":[
+               {
+                  "node":"Environmental Application",
+                  "child":[
+                     {
+                        "node":"Reorientiation"
+                     },
+                     {
+                        "node":"Repositioning"
+                     }
+                  ]
+               },
+               {
+                  "node":"Noticeability",
+                  "child":[
+                     {
+                        "node":"Overt"
+                     },
+                     {
+                        "node":"Subtle"
+                     }
+                  ]
+               },
+               {
+                  "node":"Implementation Strategy",
+                  "child":[
+                     {
+                        "node":"Discrete"
+                     },
+                     {
+                        "node":"Continuous"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Tapping-In-Place: Increasing the naturalness of immersive walking-in-place locomotion through novel gestural input",
+         "cite":"nilsson2013tapping",
+         "pubdate":2013,
+         "authors":[
+            {
+               "firstname":"Niels",
+               "secondname":"C",
+               "lastname":"Nilsson"
+            },
+            {
+               "firstname":"Stefania",
+               "lastname":"Serafin"
+            },
+            {
+               "firstname":"Morten",
+               "secondname":"H",
+               "lastname":"Laursen"
+            },
+            {
+               "firstname":"Kasper",
+               "secondname":"S",
+               "lastname":"Pedersen"
+            },
+            {
+               "firstname":"Erik",
+               "lastname":"Sikström"
+            },
+            {
+               "firstname":"Rolf",
+               "lastname":"Nordahl"
+            }
+         ],
+         "taxonomy":{
+            "node":"Walking Techniques for Incompatible Spaces",
+            "child":[
+               {
+                  "node":"Mechanical repositioning"
+               },
+               {
+                  "node":"Redirected walking"
+               },
+               {
+                  "node":"Walking-In-Place (WIP)"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Walking Without Moving: An exploration of factors influencing the perceived naturalness of Walking-in-Place techniques for locomotion in virtual environments",
+         "cite":"nilsson2015walking",
+         "pubdate":2015,
+         "authors":[
+            {
+               "firstname":"Niels",
+               "secondname":"C",
+               "lastname":"Nilsson"
+            }
+         ],
+         "taxonomy":{
+            "node":"Virtual Travel Techniques",
+            "child":[
+               {
+                  "node":"Virtual Movement Source",
+                  "child":[
+                     {
+                        "node":"Body-centric"
+                     },
+                     {
+                        "node":"Vehicular"
+                     }
+                  ]
+               },
+               {
+                  "node":"Metaphor Plausability",
+                  "child":[
+                     {
+                        "node":"Mundane"
+                     },
+                     {
+                        "node":"Magical"
+                     }
+                  ]
+               },
+               {
+                  "node":"User Movement",
+                  "child":[
+                     {
+                        "node":"Mobile"
+                     },
+                     {
+                        "node":"Stationary"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Locomotion by Natural Gestures for Immersive Virtual Environments",
+         "cite":"ferracani2016locomotion",
+         "pubdate":2016,
+         "authors":[
+            {
+               "firstname":"Andrea",
+               "lastname":"Ferracani"
+            },
+            {
+               "firstname":"Daniele",
+               "lastname":"Pezzatini"
+            },
+            {
+               "firstname":"Jacopo",
+               "lastname":"Bianchini"
+            },
+            {
+               "firstname":"Gianmarco",
+               "lastname":"Biscini"
+            },
+            {
+               "firstname":"Alberto",
+               "lastname":"Del Bimbo"
+            }
+         ],
+         "taxonomy":{
+            "node":"Infinite Walking Solutions",
+            "child":[
+               {
+                  "node":"Additional Hardware"
+               },
+               {
+                  "node":"Redirected Walking"
+               },
+               {
+                  "node":"Software-based Navigation"
+               },
+               {
+                  "node":"Gesture Recognition using cameras"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"The VR Book: Human-Centered Design for Virtual Reality",
+         "cite":"jerald2016vr",
+         "pubdate":2016,
+         "authors":[
+            {
+               "firstname":"Jason",
+               "lastname":"Jerald"
+            }
+         ],
+         "taxonomy":{
+            "node":"Viewpoint Control Patterns",
+            "child":[
+               {
+                  "node":"Walking Pattern",
+                  "child":[
+                     {
+                        "node":"Real Walking"
+                     },
+                     {
+                        "node":"Redirected Walking"
+                     },
+                     {
+                        "node":"Walking in place"
+                     },
+                     {
+                        "node":"The human joystick"
+                     },
+                     {
+                        "node":"Treadmill Walking and running"
+                     }
+                  ]
+               },
+               {
+                  "node":"Steering Pattern",
+                  "child":[
+                     {
+                        "node":"Navigation by leaning"
+                     },
+                     {
+                        "node":"Gaze-directed steering"
+                     },
+                     {
+                        "node":"Torso-directed steering"
+                     },
+                     {
+                        "node":"One-handed flying"
+                     },
+                     {
+                        "node":"Two-handed flying"
+                     },
+                     {
+                        "node":"Dual analog stick steering"
+                     },
+                     {
+                        "node":"World grounded steering devices"
+                     },
+                     {
+                        "node":"Virtual steering devices"
+                     }
+                  ]
+               },
+               {
+                  "node":"3D Multi-Touch Pattern",
+                  "child":[
+                     {
+                        "node":"Digital ArtForms' Two-Handed Interface"
+                     },
+                     {
+                        "node":"The spindle"
+                     }
+                  ]
+               },
+               {
+                  "node":"Automated Pattern",
+                  "child":[
+                     {
+                        "node":"Reducing motion sickness"
+                     },
+                     {
+                        "node":"Passive Vehicle"
+                     },
+                     {
+                        "node":"Target-based travel and route planning"
+                     },
+                     {
+                        "node":"Teleportation"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"A Taxonomy for Designing Walking-Based Locomotion Techniques for Virtual Reality",
+         "cite":"nabiyouni2016taxonomy",
+         "pubdate":2016,
+         "authors":[
+            {
+               "firstname":"Mahdi",
+               "lastname":"Nabiyouni"
+            },
+            {
+               "firstname":"Doug",
+               "secondname":"A",
+               "lastname":"Bowman"
+            }
+         ],
+         "taxonomy":{
+            "node":"Walking-based Locomotion Techniques",
+            "child":[
+               {
+                  "node":"Movement Range",
+                  "child":[
+                     {
+                        "node":"Stationary Center of Mass"
+                     },
+                     {
+                        "node":"Small Range of Movement (r<1m)"
+                     },
+                     {
+                        "node":"Large Range of Movement (r>1m)"
+                     }
+                  ]
+               },
+               {
+                  "node":"Walking Surface",
+                  "child":[
+                     {
+                        "node":"Curvature",
+                        "child":[
+                           {
+                              "node":"Flat"
+                           },
+                           {
+                              "node":"Curved"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Movement",
+                        "child":[
+                           {
+                              "node":"Active"
+                           },
+                           {
+                              "node":"Passive"
+                           },
+                           {
+                              "node":"Stationary, Low Friction"
+                           },
+                           {
+                              "node":"Stationary, High Friction"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Dynamic Height",
+                        "child":[
+                           {
+                              "node":"Yes"
+                           },
+                           {
+                              "node":"No"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"Transfer Function",
+                  "child":[
+                     {
+                        "node":"Rotation",
+                        "child":[
+                           {
+                              "node":"Input",
+                              "child":[
+                                 {
+                                    "node":"Position"
+                                 },
+                                 {
+                                    "node":"Speed"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Mapping",
+                              "child":[
+                                 {
+                                    "node":"1:1"
+                                 },
+                                 {
+                                    "node":"1:n"
+                                 },
+                                 {
+                                    "node":"Non-linear"
+                                 },
+                                 {
+                                    "node":"Dynamic"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Output",
+                              "child":[
+                                 {
+                                    "node":"Position"
+                                 },
+                                 {
+                                    "node":"Speed"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Translation",
+                        "child":[
+                           {
+                              "node":"Input",
+                              "child":[
+                                 {
+                                    "node":"Position"
+                                 },
+                                 {
+                                    "node":"Speed"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Mapping",
+                              "child":[
+                                 {
+                                    "node":"1:1"
+                                 },
+                                 {
+                                    "node":"1:n"
+                                 },
+                                 {
+                                    "node":"Non-linear"
+                                 },
+                                 {
+                                    "node":"Dynamic"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Output",
+                              "child":[
+                                 {
+                                    "node":"Position"
+                                 },
+                                 {
+                                    "node":"Speed"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"DoF",
+                              "child":[
+                                 {
+                                    "node":"2"
+                                 },
+                                 {
+                                    "node":"3"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"User Support",
+                  "child":[
+                     {
+                        "node":"None"
+                     },
+                     {
+                        "node":"Balance Aids"
+                     },
+                     {
+                        "node":"Weight-bearing"
+                     }
+                  ]
+               },
+               {
+                  "node":"Walking Movement Style",
+                  "child":[
+                     {
+                        "node":"Natural"
+                     },
+                     {
+                        "node":"Marching"
+                     },
+                     {
+                        "node":"Sliding",
+                        "child":[
+                           {
+                              "node":"Unidirectional"
+                           },
+                           {
+                              "node":"Bidirectional"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"Input Properties Sensed",
+                  "child":[
+                     {
+                        "node":"Body Parts Tracked",
+                        "child":[
+                           {
+                              "node":"Head"
+                           },
+                           {
+                              "node":"Legs"
+                           },
+                           {
+                              "node":"Feet"
+                           },
+                           {
+                              "node":"Torso"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Properties Tracked",
+                        "child":[
+                           {
+                              "node":"Position"
+                           },
+                           {
+                              "node":"Orientation"
+                           },
+                           {
+                              "node":"Motion"
+                           },
+                           {
+                              "node":"Step Detection"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"The New Era of Virtual Reality Locomotion: A Systematic Literature Review of Techniques and a Proposed Typology",
+         "cite":"boletsis2017new",
+         "pubdate":2017,
+         "authors":[
+            {
+               "firstname":"Costas",
+               "lastname":"Boletsis"
+            }
+         ],
+         "taxonomy":{
+            "node":"VR locomotion technique",
+            "child":[
+               {
+                  "node":"Physical interaction",
+                  "child":[
+                     {
+                        "node":"Continuous motion",
+                        "child":[
+                           {
+                              "node":"Open interaction space",
+                              "child":[
+                                 {
+                                    "node":"Motion-based locomotion"
+                                 }
+                              ]
+                           },
+                           {
+                              "node":"Limited interaction space",
+                              "child":[
+                                 {
+                                    "node":"Roomscale-based locomotion"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"Artificial interaction",
+                  "child":[
+                     {
+                        "node":"Continuous motion",
+                        "child":[
+                           {
+                              "node":"Open interaction space",
+                              "child":[
+                                 {
+                                    "node":"Controller-based locomotion"
+                                 }
+                              ]
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Non-continuous motion",
+                        "child":[
+                           {
+                              "node":"Open interaction space",
+                              "child":[
+                                 {
+                                    "node":"Teleportation-based locomotion"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Designing intentional impossible spaces in virtual reality narratives: A case study",
+         "cite":"fisher2017designing",
+         "pubdate":2017,
+         "authors":[
+            {
+               "firstname":"Joshua",
+               "secondname":"A",
+               "lastname":"Fisher"
+            },
+            {
+               "firstname":"Amit",
+               "lastname":"Garg"
+            },
+            {
+               "firstname":"Karan",
+               "secondname":"P",
+               "lastname":"Singh"
+            },
+            {
+               "firstname":"Wesley",
+               "lastname":"Wang"
+            }
+         ],
+         "taxonomy":{
+            "node":"Interaction Fidelity",
+            "child":[
+               {
+                  "node":"low fidelity (super-natural, magical, non-natural)"
+               },
+               {
+                  "node":"high fidelity (natural locomotion)"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Spatial Updating and Simulator Sickness During Steering and Jumping in Immersive Virtual Environments",
+         "cite":"weissker2018spatial",
+         "pubdate":2018,
+         "authors":[
+            {
+               "firstname":"Tim",
+               "lastname":"Weißker"
+            },
+            {
+               "firstname":"André",
+               "lastname":"Kunert"
+            },
+            {
+               "firstname":"Bernd",
+               "lastname":"Fröhlich"
+            },
+            {
+               "firstname":"Alexander",
+               "lastname":"Kulik"
+            }
+         ],
+         "taxonomy":{
+            "node":"Teleportation",
+            "child":[
+               {
+                  "node":"target specification",
+                  "child":[
+                     {
+                        "node":"input method"
+                     },
+                     {
+                        "node":"target scope"
+                     },
+                     {
+                        "node":"orientation specification"
+                     }
+                  ]
+               },
+               {
+                  "node":"pre-travel information"
+               },
+               {
+                  "node":"transition"
+               },
+               {
+                  "node":"post-travel feedback (optional)"
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Locomotion in virtual reality for room scale tracked areas",
+         "cite":"bozgeyikli2019locomotion",
+         "pubdate":2019,
+         "authors":[
+            {
+               "firstname":"Evren",
+               "lastname":"Bozgeyikli"
+            },
+            {
+               "firstname":"Andrew",
+               "lastname":"Raij"
+            },
+            {
+               "firstname":"Srinivas",
+               "lastname":"Katkoori"
+            },
+            {
+               "firstname":"Rajiv",
+               "lastname":"Dubey"
+            }
+         ],
+         "taxonomy":{
+            "node":"Locomotion Techniques",
+            "child":[
+               {
+                  "node":"Algorithm Based Techniques",
+                  "child":[
+                     {
+                        "node":"Real Walking",
+                        "child":[
+                           {
+                              "node":"Redirected Walking"
+                           },
+                           {
+                              "node":"Environment Change"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Gesture Based",
+                        "child":[
+                           {
+                              "node":"Walking in Place"
+                           },
+                           {
+                              "node":"Flying/Leaning"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "node":"Tool Based Techniques",
+                  "child":[
+                     {
+                        "node":"Stationary Tools",
+                        "child":[
+                           {
+                              "node":"Walkers"
+                           },
+                           {
+                              "node":"Standard Controllers"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Mobile Tools",
+                        "child":[
+                           {
+                              "node":"Wearables"
+                           },
+                           {
+                              "node":"Robots"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"The Effect of Elastic Feedback on the Perceived User Experience and Presence of Travel Methods in Immersive Environments",
+         "cite":"gunther2019effect",
+         "pubdate":2019,
+         "authors":[
+            {
+               "firstname":"Tobias",
+               "lastname":"Günther"
+            },
+            {
+               "firstname":"Lars",
+               "lastname":"Engeln"
+            },
+            {
+               "firstname":"Sally",
+               "secondname":"J",
+               "lastname":"Busch"
+            },
+            {
+               "firstname":"Rainer",
+               "lastname":"Groh"
+            }
+         ],
+         "taxonomy":{
+            "node":"Travel methods",
+            "child":[
+               {
+                  "node":"Input Devices",
+                  "child":[
+                     {
+                        "node":"isometric"
+                     },
+                     {
+                        "node":"isotonic"
+                     },
+                     {
+                        "node":"elastic"
+                     }
+                  ]
+               },
+               {
+                  "node":"Interfaces Offering Elastic Feedback",
+                  "child":[
+                     {
+                        "node":"Hand-focused Interface"
+                     },
+                     {
+                        "node":"Arm-focused Interface"
+                     },
+                     {
+                        "node":"Leaning-based Interfaces"
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "pubtitle":"Literature review of locomotion techniques in virtual reality",
+         "cite":"cherni2020literature",
+         "pubdate":2020,
+         "authors":[
+            {
+               "firstname":"Heni",
+               "lastname":"Cherni"
+            },
+            {
+               "firstname":"Natacha",
+               "lastname":"Métayer"
+            },
+            {
+               "firstname":"Nicolas",
+               "lastname":"Souliman"
+            }
+         ],
+         "taxonomy":{
+            "node":"Locomotion techniques",
+            "child":[
+               {
+                  "node":"User-body centered",
+                  "child":[
+                     {
+                        "node":"Leaning-based",
+                        "child":[
+                           {
+                              "node":"Arm-based motion capture"
+                           },
+                           {
+                              "node":"Head-based motion capture"
+                           },
+                           {
+                              "node":"Trunk-based motion capture"
+                           }
+                        ]
+                     },
+                     {
+                        "node":"Walk simulation"
+                     }
+                  ]
+               },
+               {
+                  "node":"Mixed"
+               },
+               {
+                  "node":"External Peripheral centered",
+                  "child":[
+                     {
+                        "node":"Semi-Natural"
+                     },
+                     {
+                        "node":"Non-Natural"
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   ]
+}
