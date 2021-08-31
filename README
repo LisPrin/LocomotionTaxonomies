@@ -1,0 +1,12 @@
+Please cite as:
+
+L. M. Prinz, T. Mathew, and B. Weyers, “Locomotion Taxonomies,” [Online]. Available: https://github.com/LisPrin/LocomotionTaxonomies, [Accessed: 2021-08-31].
+
+BibTex:
+
+@misc{gitrepo,
+  author = {Prinz, Lisa Marie and Mathew, Tintu and Weyers, Benjamin},
+  title = {{\relax Locomotion Taxonomies}},
+  howpublished = {[Online]. Available: \url{https://github.com/LisPrin/LocomotionTaxonomies}},
+  note = {[Accessed: 2021-08-31]}
+}
